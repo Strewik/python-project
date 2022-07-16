@@ -11,6 +11,8 @@ def greet(name):
 greet('Jane Doe')
 greet('John Doe')
 greet('Elijah')
+greet('Person')
+
 
 
 
@@ -24,4 +26,4 @@ print(absolute_value(5))
 print(absolute_value(-5))
 
 
-envName/bin/activate
+# envName/bin/activate
