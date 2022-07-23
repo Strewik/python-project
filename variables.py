@@ -41,3 +41,6 @@ car1 = {"brand":"bmw", "model":"2021", "colour":"blue"}
 # print(car1["brand"])
 
 team = "Boca";
+
+num = 0;
+
