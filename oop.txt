@@ -1,0 +1,67 @@
+Encapsulation
+
+The binding of data and methods into a single unit is called encapsulation.
+ Encapsulation is accomplished when each object inside the class keeps its
+  state private. The data inside this unit is not accessible by outside
+   objects, and only those functions inside this unit are able to access it.
+    Thus, the object manages its state with the help of its methods and 
+    communicates with this object; we will require the help of the public 
+    methods of this class.
+
+
+2. Abstraction
+
+Abstraction is an extension of encapsulation. It means providing only the 
+necessary information to the outside world while hiding the internal details 
+of implementation. It reveals only the appropriate operations for other objects.
+ The advantage of this is that we can change the implementation without affecting 
+ the class, as the method interface remains the same.
+
+Let us take the example of a calculator, which takes the input from us, and at the press of a button, gives us the desired output while sparing us the internal details of how it has arrived at that answer.
+
+
+3. Inheritance
+
+Often, objects are similar in functionality, sharing part of the logic but 
+differing in the rest. So how do we reuse the common logic and separate the 
+different logic? This can be achieved by inheritance. In inheritance, we create 
+a new class called the child class, which is derived from the class called the 
+parent class, thus forming a hier0archy of classes. The child class reuses the 
+data fields and methods required from the parent class and implements its unique 
+functionality on its own.
+
+For example, a vehicle can be a parent class, from which we can derive child classes like Bike and Car. They share the common properties of running on fuel and carrying passengers but differ in the number of passengers they can carry and more such properties.
+
+
+4. Polymorphism
+
+Polymorphism is the ability to take more than one form. For example, suppose we 
+have a parent class and a few of its child classes. Now we want to use attributes 
+from both the parent and the child classes, so how will it be achieved? This can 
+be done using Polymorphism. In Polymorphism, abstract entities are executed in 
+multiple ways. It gives a way to consume a class exactly like the parent class, 
+such that there is no confusion with mixing the type of classes, and each child 
+class continues to keep its methods the way it was. This can be done by reusing 
+a parent interface so that the child class can implement these methods in their 
+own version.
+
+Advantages
+
+Below are the advantages:
+
+    - A real-world idea can be demonstrated, as everything in OOP is treated as an object.
+    - As we use the concept of encapsulation, programs are easier to test and maintain.
+    - Faster development of code is done as we develop classes parallel instead of sequentially.
+    - OOP provides greater security due to data abstraction. The outside world cannot access the hidden data.
+    - Reusability can be achieved by using classes that have been already written.
+
+Disadvantages
+
+Below are the disadvantages:
+
+    - Designing a program with an OOP concept can be tricky.
+    - A programmer needs to plan beforehand for developing a program in OOP.
+    - The size of programs developed with OOP is bigger than those developed with a procedural approach.
+    - Since OOP programs are larger in size, the execution time for these programs is also more.
+
+

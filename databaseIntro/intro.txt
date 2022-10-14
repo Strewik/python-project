@@ -1,0 +1,24 @@
+SQl                             NoSQL 
+
+tables -                        no schema/table
+scalabilty verticaly            horizontally  
+Query language                  No standard query language   
+ACID properties 
+    A - Atomicity - the entire transaction happens at once or doesn't happen at all 
+    C - consistency - the database must be consistent before and after the transaction is committed
+    I - isolation - multiple transactins occur independently without interference 
+    D - Durability - the changes of a successful transaction occur even if a system failure occurs  
+
+Suitability 
+ - growning companies - NoSQL
+ - unknown requirements for the project - NoSQL
+ - stability - SQL
+ - security - SQL
+
+
+sql - datatypes
+    - null - value is null
+    - integer - whole numbers
+    - real numbers - floating point number
+    - text - string
+    - blob - stored exactly as it was input
